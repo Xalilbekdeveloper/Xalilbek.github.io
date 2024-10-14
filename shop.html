@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shop Dashboard</title>
+        <link rel="stylesheet" href="assets/css/media.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/shop.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+<body>
+
+    <div class="container">
+        <div class="header-container">
+        <aside class="filter-section">
+            <aside id="sidebar" class="sidebar">
+                <div class="logo">
+                    <h2 style="color: white;">Market</h2>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="dashboard.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">
+                                <span class="menu-icon"><i class="fas fa-box"></i></span> Product
+                                <span class="submenu-toggle"><i class="fas fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="html-templates/product-details.html">Product Details</a></li>
+                                <li><a href="html-templates/shopping-cart.html">Shopping Cart</a></li>
+                                <li><a href="html-templates/wishlist.html">Wishlist</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="html-templates/orders.html"><i class="fas fa-shopping-cart"></i> Orders</a></li>
+                        <li><a href="html-templates/invoices.html"><i class="fas fa-file-invoice"></i> Invoices</a></li>
+                        <li><a href="html-templates/"><i class="fas fa-calendar"></i> Calendar</a></li>
+                        <li><a href="html-templates/chat.htmls"><i class="fas fa-comments"></i> Chat</a></li>
+                        <li><a href="html-templates/user-profile.html"><i class="fas fa-user"></i> User Profile</a></li>
+                        <li><a href="index.html"><i class="fa-solid fa-right-to-bracket"></i>Main Menu</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <div class="filters-container">
+                <section class="filters">
+                    <h2>Filter</h2>
+                    <div class="filter-section">
+                        <h3>Categories</h3>
+                        <input type="range" id="price-range" min="0" max="1000" step="10" value="500">
+                        <div class="price-value">
+                            <span>Price: $<span id="price-value">500</span></span>
+                        </div>
+                    </div>
+                    <div class="filter-section">
+                        <h3>Type</h3>
+                        <ul>
+                            <li><input type="checkbox" name="type" value="Watch"> Watch</li>
+                            <li><input type="checkbox" name="type" value="Bags"> Bags</li>
+                            <li><input type="checkbox" name="type" value="Men's Fashion"> Men's Fashion</li>
+                            <li><input type="checkbox" name="type" value="Women's Fashion"> Women's Fashion</li>
+                            <li><input type="checkbox" name="type" value="Baby's Fashion"> Baby's Fashion</li>
+                            <li><input type="checkbox" name="type" value="Fashion"> Fashion</li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-section">
+                        <h3>Discount</h3>
+                        <ul>
+                            <li><input type="checkbox"> 50% off</li>
+                            <li><input type="checkbox"> 40% off</li>
+                            <li><input type="checkbox"> 30% off</li>
+                            <li><input type="checkbox"> 20% off</li>
+                            <li><input type="checkbox" checked> 10% off</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="product-list">
+                    <h2>Trending Items</h2>
+                    <div class="products">
+                        <div class="product-card">
+                            <img src="https://d2ob0iztsaxy5v.cloudfront.net/product/196028/1960289570m4_zm.jpg"
+                                alt="Casual Shoes">
+                            <div class="product-info">
+                                <h3>Casual Shoes</h3>
+                                <p>$10.00</p>
+                                <span class="rating">3.5 ★</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://target.scene7.com/is/image/Target/GUEST_8741f26e-d1a8-457e-967a-4633700f9e05?wid=488&hei=488&fmt=pjpeg"
+                                alt="A71 Headphones">
+                            <div class="product-info">
+                                <h3>A71 Headphones</h3>
+                                <p>$400</p>
+                                <span class="rating">3.5 ★</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://re-macs.com/cdn/shop/products/iMac272012Slimline1_800x.jpg?v=1667833401"
+                                alt="Apple iMac 27-inch">
+                            <div class="product-info">
+                                <h3>Apple iMac 27-inch</h3>
+                                <p>$74.00</p>
+                                <span class="rating">3.5 ★</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://www.mrporter.com/variants/images/1647597286006989/in/w2000_q60.jpg"
+                                alt="Apple iMac 27-inch">
+                            <div class="product-info">
+                                <h3>Apple iMac 27-inch</h3>
+                                <p>$1.00</p>
+                                <span class="rating">3.5 ★</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://media.direct.playstation.com/is/image/sierialto/dualsense-edge-ps5-controller-front"
+                                alt="Apple iMac 27-inch">
+                            <div class="product-info">
+                                <h3>Apple iMac 27-inch</h3>
+                                <p>$300</p>
+                                <span class="rating">3.5 ★</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://assets.asaxiy.uz/product/items/desktop/c74d97b01eae257e44aa9d5bade97baf2023110921414423086HWfEB2uMrQ.jpg.webp"
+                                alt="Apple iMac 27-inch">
+                            <div class="product-info">
+                                <h3>Apple iMac 27-inch</h3>
+                                <p>$1.00</p>
+                                <span class="rating">3.5 ★</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+            <div class="offers">
+                <h3>Offers</h3>
+                <div class="offer-card">
+                    <img src="offer1.jpg" alt="Offer">
+                    <div class="offer-info">
+                        <h3>Get Up To 50% Off</h3>
+                        <p>For The Party Sessions</p>
+                    </div>
+                </div>
+                <!-- Add more offer cards here -->
+            </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
